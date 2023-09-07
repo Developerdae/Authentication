@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    
+}
+.credential-box {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width:300px;
+    height: 350px;
+    text-align:center;  
+    border: 2px solid #000080;
+    background-color: aliceblue;
+    border-radius: 5px;
+    top:50%;
+    left:50%
+}
+
+.field {
+    padding: 8px 20px;
+    margin-bottom: 10px;
+}
+
+.btn-style {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.btn-style:hover{
+    background-color: #000080 ;
+    color: white;
+}
+
+.other-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    border: 0;
+    background-color: #000080;
+    color: white;
+    font-size: 12pt;
+}
+
+#Register {
+    display:none;
+}
+
+#result-box {
+  display:none;
+  position: 30px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 16pt;
+  color: black;
+}
+

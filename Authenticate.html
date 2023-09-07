@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Incentive System Authentication</title>
+    <link rel="stylesheet" href="Authenticate.css">
+    <script type = "module" src="Authentication.js"></script>
+</head>
+<body>
+
+    <div class="credential-box" id="sign-in">
+        <h2> Sign in</h2>
+        <p>Welcome back! Enter your details</p>
+        <input type="email" id="signin-email" class="field" name="email" placeholder="Email" required/><br>
+        <input type="password" id="signin-password" class="field" name="password" placeholder="Password" required/><br>
+        <button id="signin-btn" class = "btn-style"> Sign in </button><br>
+        <button id="SIGNUP-btn" class = "o-btn"> Don't have an account? Sign up</button>
+
+    </div>
+
+    <div class="credential-box" id="Register">
+        <h2> Sign up</h2>
+        <p>Please enter your details down below</p>
+        <input type="text" id="firstname" class="field" name="First Name" placeholder="First name" /><br>
+        <input type="text" id ="lastname" class="field" name="Last Name" placeholder="Last name"/><br>
+        <input type="email" id="signup-email" class="field" name="email" placeholder="Email"/><br>
+        <input type="password" id="signup-password" class="field" name="password" placeholder="Password"/><br>
+        <button id="signup-btn" class = "btn-style"> Sign up</button><br>
+        <button id="SIGNIN-btn" class = "o-btn">Already have an account? Sign in </button>
+    </div>
+
+    <div id="result-box">
+        <h3 id="result"></h3><br>
+        <button id="sign-out-btn" class="btn-style">Sign out</button>
+    </div>
+</body>
+</html>
